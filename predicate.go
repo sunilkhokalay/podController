@@ -7,7 +7,7 @@ import (
 // PodPredicate is default predicate for reconciles.
 type PodPredicate struct{}
 
-// NewCrPredicate returns a new.
+// NewPodPredicate returns a new.
 func NewPodPredicate() *PodPredicate {
 	return &PodPredicate{}
 }
