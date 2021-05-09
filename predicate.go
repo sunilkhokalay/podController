@@ -4,7 +4,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/event"
 )
 
-// CrPredicate is default predicate for reconciles.
+// PodPredicate is default predicate for reconciles.
 type PodPredicate struct{}
 
 // NewCrPredicate returns a new.
